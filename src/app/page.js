@@ -20,13 +20,13 @@ export default function Home() {
   return (
     <> 
       <section className="bg-white dark:bg-gray-950 ">
-        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-4 xl:gap-0 lg:py-16 lg:grid-cols-12 h-screen">
+        <div className="grid max-w-screen-xl px-4 mx-auto lg:gap-4 xl:gap-0 lg:py-16 lg:grid-cols-12 h-screen">
             <div className="mr-auto place-self-center lg:col-span-8 w-full">
               <h1 className="max-w-2xl mb-4 text-center sm:text-left text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Welcome to our Encryption Tool</h1>
               <p className="max-w-2xl mb-6 font-light text-center sm:text-left text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Simply type your string below</p>
                 
 
-              <div className="max-w-sm mx-5">
+              <div className="max-w-sm">
                 <div className="mb-5 flex justify-center font-bold">
                   <input 
                     type="text" 
