@@ -32,11 +32,11 @@ export default function Home() {
                     type="text" 
                     id="email"
                     onChange={(e) => setInput(e.target.value)} 
-                    className="rounded-full focus:outline-none border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-3xs sm:w-4xl md:w-[300px]" placeholder="Type your string here" required />
+                    className="rounded-full  focus:outline-none border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-3xs sm:w-4xl md:w-[300px]" placeholder="Type your string here" required />
                   <button 
                     type="submit"
                     onClick={md5func} 
-                    className="md:mx-5 sm:mx-3 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-auto sm:w-2xl md:w-[158px]">Submit</button>
+                    className="md:mx-5 sm:mx-3 rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-auto sm:w-2xl md:w-[158px]">Go</button>
                 </div>
               </div>
               <dl className="block sm:hidden max-w-md text-gray-900 place-self-center divide-y divide-gray-200 dark:text-white dark:divide-gray-700 lg:w-4xl">
